@@ -39,7 +39,7 @@ Once the database was connected on Jupyter we could start transformations:
 9.	The creation of the tables from part 8 involved changing the data type of the columns except date to numeric to allow for the values to be rounded to 2 decimal places. It also involved transposing.
 10.	Rounded the values of the tables from part 8 to make them look visually appealing.
 
-Load
+## Load
 After all transformation were completed. We loaded the dataframes into an SQL database. The reason we chose a relational database is because of how the data is presented. We feel a relational database is the best way to view the data for analysis. A primary key can easily be assigned to all tables because of a common ‘date’ column in all the tables.
 From the transformation process we have created these 9 tables within the SQL database;
 ### | cancer |
